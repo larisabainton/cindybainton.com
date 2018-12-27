@@ -5,7 +5,12 @@ $message-button-hover-color: #6a8966;
 $message-button-active-color: #2d3b2c;
 
 .contact {
-    background-image: url('../images/06.jpg');
+    background-image: url('../images/05.jpg');
+    color: white;
+}
+
+.contact-title, .contact-text {
+    background-color: #ff9da6;
 }
 
 .contact .content {

@@ -1,10 +1,23 @@
 .footer {
     text-align: center;
-    background-color: #39454b;
-    color: rgba(185, 186, 187, 0.5);
+    background-color: #92e8d8;
+    color: white;
     padding: 30px;
 }
 
 .social-media {
     font-size: 25px;
+    color: white;
+}
+
+a.social-media:link {
+    color: white;
+}
+
+a.social-media:hover {
+    color: white;
+}
+
+a.social-media:active {
+    color: white;
 }

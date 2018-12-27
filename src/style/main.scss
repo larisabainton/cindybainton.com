@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento');
+
+$josefin: 'Josefin Slab', serif;
+$sacramento: 'Sacramento', cursive;
+
+@import 'mixins';
 @import 'contact';
 @import 'description';
 @import 'gallery';
@@ -8,7 +14,8 @@
 
 body {
    margin: 0;
-   font-family: 'Titillium Web', sans-serif;
+   font-family: $josefin;
+   font-size: 20px;
 
     a {
         text-decoration: none;
@@ -16,7 +23,7 @@ body {
 }
 
 .title {
-    font-family: 'Amaranth', sans-serif;
+    font-family: $sacramento;
     font-weight: bold;
 }
 
@@ -39,7 +46,14 @@ h1 {
 }
 
 a:link,
-a:visited,
-a:active {
+a:visited {
     color: black;
+}
+
+a:hover {
+    color: #92e8d8;
+}
+
+a:active {
+    color: #1ef1cb;
 }

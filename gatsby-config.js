@@ -1,27 +1,24 @@
 module.exports = {
     siteMetadata: {
-        title: 'Basic Website Template',
-        description: 'Sample',
-        content: 'Sample',
-        name: 'Sample Name',
+        title: 'Cindy Bainton',
+        description: 'Cindy Bainton',
+        content: 'Cindy Bainton',
+        name: 'Cindy Bainton',
         links: [
-            { name: 'facebook', url: 'https://www.facebook.com' },
-            { name: 'twitter', url: 'https://www.twitter.com' },
-            { name: 'instagram', url: 'https://www.instagram.com' },
-            { name: 'linkedIn', url: 'https://www.linkedin.com' },
+            { name: 'facebook', url: 'https://www.facebook.com/CindyBainton/' },
         ],
         sections: [
-            { name: 'intro', title: 'Hey', text: 'Hey this is the intro' },
+            { name: 'intro', title: 'Cindy Bainton', text: 'Watercolor Designs' },
             {
-                name: 'gallery', headerTitle: 'Gallery', title: 'Gallery', text: 'Here is some text about what I do', videos: '',
+                name: 'gallery', headerTitle: 'Gallery', title: 'Gallery', text: 'See some examples below of Cindy\'s art', videos: '',
             },
             {
                 name: 'contact', headerTitle: 'Contact', title: 'Say Hello.', text: 'Keep in touch',
             },
         ],
         descriptions: [
-            { headerTitle: 'About Me', title: 'Section 1 Title', text: 'This is the text for section 1' },
-            { headerTitle: 'What I Do', title: 'Section 2 Title', text: 'This is the text for section 2' },
+            { headerTitle: 'About', title: 'About the Artist', text: 'Cindy Bainton is an artist with many years of experience in textile design, botanical drawing, and watercolor art. She is best known for her whimsical card designs. Cindy now works from her home in North Carolina, where she lives with her husband, Keith, and their cat, Lily.' },
+            { headerTitle: 'Shop', title: 'Shop', text: '' },
         ],
     },
     plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass', 'gatsby-plugin-eslint'],
