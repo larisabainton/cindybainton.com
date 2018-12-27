@@ -18,7 +18,7 @@ module.exports = {
         ],
         descriptions: [
             { headerTitle: 'About', title: 'About the Artist', text: 'Cindy Bainton is an artist with many years of experience in textile design, botanical drawing, and watercolor art. She is best known for her whimsical card designs. Cindy now works from her home in North Carolina, where she lives with her husband, Keith, and their cat, Lily.' },
-            { headerTitle: 'Shop', title: 'Shop', text: '' },
+            { headerTitle: 'Shop', title: 'Shop', text: '<div className="buttons"><a href="https://www.etsy.com/shop/CindyBainton" class="button">Shop Coloring Cards</a><a href="https://www.zazzle.com/cindybainton" class="button">Shop Greeting Cards</a></div>' },
         ],
     },
     plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass', 'gatsby-plugin-eslint'],

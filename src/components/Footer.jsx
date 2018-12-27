@@ -28,12 +28,19 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-                {this.facebook}
-                {this.twitter}
-                {this.instagram}
-                {this.linkedIn}
-                <i className="far fa-copyright" />
-                {this.name}
+                <div className="footer__social-media-links">
+                    {this.facebook}
+                    {this.twitter}
+                    {this.instagram}
+                    {this.linkedIn}
+                </div>
+                <div className="footer__copyright">
+                    <FontAwesomeIcon icon={['far', 'copyright']} />
+                    {this.name}
+                </div>
+                <a href="https://www.larisabainton.com" className="footer__larisa">
+                    {'Designed by Larisa Bainton'}
+                </a>
             </div>
         );
     }

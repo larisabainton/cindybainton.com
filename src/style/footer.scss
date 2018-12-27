@@ -1,4 +1,7 @@
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     background-color: #92e8d8;
     color: white;
@@ -10,7 +13,8 @@
     color: white;
 }
 
-a.social-media:link {
+a.social-media,
+a.social-media:visited {
     color: white;
 }
 
@@ -20,4 +24,15 @@ a.social-media:hover {
 
 a.social-media:active {
     color: white;
+}
+
+a.footer__larisa:visited,
+a.footer__larisa:link,
+a.footer__larisa:active {
+    color: white;
+}
+
+.footer__larisa {
+    font-size: 12px;
+    align-self: center;
 }
